@@ -16,7 +16,8 @@ class SectionRight extends Component {
                <div className="awardpic-text">
                <img className="awardpic" src={awardPic} alt="awardPic" />
                </div>
-               <div className="Image-text">Government of India has awarded the "National Energy Conservation Award 2018". Mr. G. Selvaraj, Joint Managing Director of C.R.I. Group received the award from Smt. Sumitra Mahajan, Speaker of Lok Sabha & Shri. Raj Kumar Singh, Honorable Minister of State.</div>
+               <div className="Image-text">
+                   <span>Government of India has awarded the "National Energy Conservation Award 2018". Mr. G. Selvaraj, Joint Managing Director of C.R.I. Group received the award from Smt. Sumitra Mahajan, Speaker of Lok Sabha & Shri. Raj Kumar Singh, Honorable Minister of State.</span></div>
             </div>
         )
     }

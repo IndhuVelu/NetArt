@@ -6,7 +6,9 @@ class SectionLeft extends Component {
         return (
             <div className="section-left">
                  <img  className="award"  src={award} alt="award" />
+                 <div  className="color-left"></div>
             </div>
+
         )
     }
 }
