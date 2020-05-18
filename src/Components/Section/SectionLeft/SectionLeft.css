@@ -20,6 +20,13 @@
       width :15rem ;
       height :15rem;
   }
+  .color-left{
+    margin-top: 0px;
+    width:0px;
+    height: 0px;
+    box-shadow:unset;
+    background-color: unset;
+  }
 }
 @media screen and (max-width: 480px) {
   .section-left {
@@ -38,6 +45,13 @@ and (max-device-width: 1024px)
     width: 20rem;
     height: 25rem;
   }
-  
+  .color-left{
+
+    margin-top: -25px;
+    width: 8rem;
+    height: 5rem;
+    box-shadow: 40px 60px 70px 80px rgba(255,248,170,0.4);
+    background-color:  rgba(255,248,170,0.4);
+  }
 
 }
