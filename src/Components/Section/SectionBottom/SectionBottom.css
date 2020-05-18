@@ -1,0 +1,137 @@
+.Section-bottom{
+    height: 30%;
+    width: 100%;
+    
+}
+.heading{
+    margin-top: 35px;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.bottom{
+    box-shadow: 40px 60px 70px 80px rgba(224, 178, 26,0.4);
+    background-color: #EFDAAA;
+    background-image: linear-gradient(350deg, #EFDAA8 0%, #ffffff 0%, #EFDAAA 96%, #EFDAAA 0%, #EFDAAA 35%, #EFDAAA 46%)
+}
+
+.seperator{
+    border: solid 1px rgb(243, 71, 71);
+    margin-top: 10px;
+    width: 95%;
+    margin-left: 20px;
+}
+.heading-footer{
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 14px;
+   
+}
+.heading-footer-1{
+    margin-bottom: 10px;
+    margin-left: 10px;
+    font-size: 15px;
+}
+.tools{
+    width :30rem; 
+    height:20rem;
+}
+
+ /* responsive design */
+
+@media screen and (max-width: 480px) {
+    .tools{
+        width: 17rem; 
+        height: 10rem;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    .Section-bottom{
+        width :unset; 
+        height:unset;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    .seperator{
+        border: solid 1px rgb(243, 71, 71);
+        margin-top: 10px;
+        width: unset;
+        margin-left: 0px;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    .heading-footer-1{
+        margin-bottom: 10px;
+        margin-left: 0px;
+        font-size: 15px;
+    }
+  }
+
+
+  @media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .heading{
+        font-size: 14px;
+        margin-bottom: 10px;
+        margin-top: 0px;
+    }
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .heading{
+        font-size: 14px;
+        margin-bottom: 10px;
+        margin-top: 0px;
+    }
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+    .heading{
+        font-size: 14px;
+        margin-top: 50px;
+        margin-bottom: 10px;
+    }
+}
+/* Portrait and Landscape */
+@media only screen 
+and (min-device-width: 768px) 
+and (max-device-width: 1024px) 
+and (-webkit-min-device-pixel-ratio: 2) {
+    .heading{
+        font-size: 14px;
+        margin-bottom: 10px;
+        margin-top: 0px;
+    }
+
+}
+
+/* ipad design */
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
+    .heading{
+        margin-top: 68px;
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+  }
+  @media all and (device-width: 1024px) and (device-height: 768px) and (orientation:landscape) {
+    .heading{
+        margin-top: 68px;
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+  }
+

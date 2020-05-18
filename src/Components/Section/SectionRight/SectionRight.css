@@ -1,0 +1,251 @@
+.Section-right{
+  width: 80%;
+  height: 60%;
+}
+.Section-right-headline{
+  font-weight: bold;
+}
+.surveyorderedlist ul{
+    list-style-position: initial;
+}  
+.surveyorderedlist li{
+ text-align: justify;
+  margin-bottom:5px;
+  margin-left:216px;
+  padding-left:8px;
+  font-size: 14px;
+}
+.awardpic-text{
+margin-left: 200px;
+}
+.awardpic{
+  width: 40rem;
+  height: 20rem;
+}
+.Image-text{
+  font-size: 14px;
+  display: flex;
+  margin-left: 248px;
+  text-align: justify; 
+}
+
+/* responsive design */
+@media screen and (max-width: 480px) {
+  .Section-right {
+    height: unset;
+    width: unset;
+  }
+}
+@media screen and (max-width: 480px) {
+  .Section-right-headline {
+   margin-left: 0px;
+   font-size: 15px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .surveyorderedlist li {
+      margin-bottom:unset;
+      margin-left: 0px;
+      font-size: unset;
+  }
+}
+@media screen and (max-width: 480px) {
+  .Image-text{
+      font-size: 14px;
+      display: flex;
+      margin-left: unset;
+  }
+}
+@media screen and (max-width: 480px) {
+  .awardpic-text{
+    margin-left: 0px;
+  }
+  .awardpic{
+      width :20rem ;
+      height :10rem;
+  }
+}
+@media screen and (max-width: 480px) {
+  .Image-text{
+      font-size: 14px;
+      display: flex;
+      margin-left: 0px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .Image-text{
+      font-size: 14px;
+      display: flex;
+      margin-left: 33px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+  }
+}
+
+@media only screen 
+and (min-device-width: 768px) 
+and (max-device-width: 1024px) 
+and (-webkit-min-device-pixel-ratio: 1) {
+  .Section-right {
+    float: right;
+    width: 80%;
+    height: 500px;
+  }
+  .awardpic{
+    text-align: justify;
+    width :450px ;
+    height :250px;
+}
+.surveyorderedlist li {
+  margin-bottom:unset;
+  margin-left: 100px;
+  font-size: unset;
+}
+.Image-text{
+  font-size: 14px;
+  display: flex;
+  margin-left: unset
+}
+}
+
+/* Portrait */
+@media only screen 
+and (min-device-width: 768px) 
+and (max-device-width: 1024px) 
+and (orientation: portrait) 
+and (-webkit-min-device-pixel-ratio: 1) {
+  .Section-right {
+    float: right;
+    width: 80%;
+    height: 500px;
+  }
+  .awardpic{
+    width :450px ;
+    height :250px;
+}
+.surveyorderedlist li {
+  margin-bottom:unset;
+  margin-left: 100px;
+  font-size: unset;
+}
+.Image-text{
+  font-size: 14px;
+  display: flex;
+  margin-left: unset
+}
+
+}
+
+/* Landscape */
+@media only screen 
+and (min-device-width: 768px) 
+and (max-device-width: 1024px) 
+and (orientation: landscape) 
+and (-webkit-min-device-pixel-ratio: 1) {
+
+  .Section-right {
+    float: right;
+    width: 80%;
+    height: 500px;
+  }
+  .awardpic{
+    width :450px ;
+    height :250px;
+}
+.surveyorderedlist li {
+  margin-bottom:unset;
+  margin-left: 100px;
+  font-size: unset;
+}
+.Image-text{
+  font-size: 14px;
+      display: flex;
+      margin-left: unset
+}
+}
+/* Portrait and Landscape */
+@media only screen 
+and (min-device-width: 768px) 
+and (max-device-width: 1024px) 
+and (-webkit-min-device-pixel-ratio: 2) {
+.Section-right {
+  float: right;
+  width: 80%;
+  height: 500px;
+}
+.awardpic{
+  width :450px ;
+  height :250px;
+}
+.surveyorderedlist li {
+margin-bottom:unset;
+margin-left: 100px;
+font-size: unset;
+}
+.Image-text{
+  font-size: 14px;
+  display: flex;
+  margin-left: unset;
+  margin-top: 15px;
+}
+
+}
+
+/* Portrait */
+@media only screen 
+and (min-device-width: 768px) 
+and (max-device-width: 1024px) 
+and (orientation: portrait) 
+and (-webkit-min-device-pixel-ratio: 2) {
+.Section-right {
+  float: right;
+  width: 80%;
+  height: 500px;
+}
+.awardpic{
+  width :450px ;
+  height :250px;
+}
+.surveyorderedlist li {
+margin-bottom:unset;
+margin-left: 100px;
+font-size: unset;
+}
+.Image-text{
+       font-size: 14px;
+      display: flex;
+      margin-left: unset;
+      margin-top: 15px;
+}
+}
+
+/* Landscape */
+@media only screen 
+and (min-device-width: 768px) 
+and (max-device-width: 1024px) 
+and (orientation: landscape) 
+and (-webkit-min-device-pixel-ratio: 2) {
+.Section-right {
+  float: right;
+  width: 80%;
+  height: 500px;
+}
+ .awardpic{
+  width :450px ;
+  height :250px;
+}
+.surveyorderedlist li {
+margin-bottom:unset;
+margin-left: 100px;
+font-size: unset;
+}
+.Image-text{
+      font-size: 14px;
+      display: flex;
+      margin-left: unset;
+      margin-top: 15px;
+}
+
+}
